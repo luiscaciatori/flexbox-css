@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Flex Container</title>
+    <link rel="stylesheet" href="./flex.css">
+</head>
+<body>
+    <div class="main">
+        <h1>Default</h1>
+        <section class="container">
+            <div class="subcontainer">item 1</div>
+            <div class="subcontainer">item 2</div>
+            <div class="subcontainer">item 3</div>
+            <div class="subcontainer">item 4</div>
+            <div class="subcontainer">item 5</div>
+        </section>
+
+        <h1>display: flex;</h1>
+        <section class="container flex">
+            <div class="subcontainer">item 1</div>
+            <div class="subcontainer">item 2</div>
+            <div class="subcontainer">item 3</div>
+            <div class="subcontainer">item 4</div>
+            <div class="subcontainer">item 5</div>
+        </section>
+
+        <h1>display: flex;</h1>
+        <section class="container flex">
+            <div class="subcontainer">item 1</div>
+            <div class="subcontainer">item 2</div>
+            <div class="subcontainer">item 3</div>
+            <div class="subcontainer">item 4</div>
+            <div class="subcontainer">item 5</div>
+            <div class="subcontainer">item 6</div>
+            <div class="subcontainer">item 7</div>
+            <div class="subcontainer">item 8</div>
+            <div class="subcontainer">item 9</div>
+            <div class="subcontainer">item 10</div>
+            <div class="subcontainer">item 11</div>
+            <div class="subcontainer">item 12</div>
+        </section>        
+
+        <h1>flex: 1;</h1>
+        <section class="container flex">
+            <div class="subcontainer flex-item-1">item 1</div>
+            <div class="subcontainer flex-item-1">item 2</div>
+            <div class="subcontainer flex-item-1">item 3</div>
+            <div class="subcontainer flex-item-1">item 4</div>
+        </section>
+
+
+        <h1>flex: 1; flex: 3;</h1>
+        <section class="container flex">
+            <div class="subcontainer flex-item-1">item 1</div>
+            <div class="subcontainer flex-item-3">item 2</div>
+            <div class="subcontainer flex-item-3">item 3</div>
+            <div class="subcontainer flex-item-3">item 4</div>
+        </section>
+
+        <h1>flex-direction: row;</h1>
+        <section class="container flex  row">
+            <div class="subcontainer">item 1</div>
+            <div class="subcontainer">item 2</div>
+            <div class="subcontainer">item 3</div>
+            <div class="subcontainer">item 4</div>
+            <div class="subcontainer">item 5</div>
+        </section>
+
+        <h1>flex-direction: row-reverse;</h1>
+        <section class="container flex  row-reverse">
+            <div class="subcontainer">item 1</div>
+            <div class="subcontainer">item 2</div>
+            <div class="subcontainer">item 3</div>
+            <div class="subcontainer">item 4</div>
+            <div class="subcontainer">item 5</div>
+        </section>
+
+
+        <h1>flex-direction: column;</h1>
+        <section class="container flex  column">
+            <div class="subcontainer">item 1</div>
+            <div class="subcontainer">item 2</div>
+            <div class="subcontainer">item 3</div>
+            <div class="subcontainer">item 4</div>
+            <div class="subcontainer">item 5</div>
+        </section>
+
+        <h1>flex-direction: column-reverse;</h1>
+        <section class="container flex column-reverse">
+            <div class="subcontainer">item 1</div>
+            <div class="subcontainer">item 2</div>
+            <div class="subcontainer">item 3</div>
+            <div class="subcontainer">item 4</div>
+            <div class="subcontainer">item 5</div>
+        </section>
+
+        <h1>flex-wrap: wrap;</h1>
+        <section class="container flex flex-wrap">
+            <div class="subcontainer">item 1</div>
+            <div class="subcontainer">item 2</div>
+            <div class="subcontainer">item 3</div>
+            <div class="subcontainer">item 4</div>
+            <div class="subcontainer">item 5</div>
+            <div class="subcontainer">item 6</div>
+            <div class="subcontainer">item 7</div>
+            <div class="subcontainer">item 8</div>
+            <div class="subcontainer">item 9</div>
+            <div class="subcontainer">item 10</div>
+            <div class="subcontainer">item 11</div>
+            <div class="subcontainer">item 12</div>
+        </section>
+
+        <h1>flex-wrap: nowrap;</h1>
+        <section class="container flex nowrap">
+            <div class="subcontainer">item 1</div>
+            <div class="subcontainer">item 2</div>
+            <div class="subcontainer">item 3</div>
+            <div class="subcontainer">item 4</div>
+            <div class="subcontainer">item 5</div>
+            <div class="subcontainer">item 6</div>
+            <div class="subcontainer">item 7</div>
+            <div class="subcontainer">item 8</div>
+            <div class="subcontainer">item 9</div>
+            <div class="subcontainer">item 10</div>
+            <div class="subcontainer">item 11</div>
+            <div class="subcontainer">item 12</div>
+        </section>
+
+        <h1>flex-wrap: wrap-reverse;</h1>
+        <section class="container flex wrap-reverse">
+            <div class="subcontainer">item 1</div>
+            <div class="subcontainer">item 2</div>
+            <div class="subcontainer">item 3</div>
+            <div class="subcontainer">item 4</div>
+            <div class="subcontainer">item 5</div>
+            <div class="subcontainer">item 6</div>
+            <div class="subcontainer">item 7</div>
+            <div class="subcontainer">item 8</div>
+            <div class="subcontainer">item 9</div>
+            <div class="subcontainer">item 10</div>
+            <div class="subcontainer">item 11</div>
+            <div class="subcontainer">item 12</div>
+        </section>
+
+        <h1>justify-content: flex-start;</h1>
+        <section class="container flex flex-start">
+            <div class="subcontainer">1</div>
+            <div class="subcontainer">Pega esse item 2</div>
+            <div class="subcontainer">item 3</div>            
+        </section>
+
+        <h1>justify-content: flex-end;</h1>
+        <section class="container flex flex-end">
+            <div class="subcontainer">1</div>
+            <div class="subcontainer">Pega esse item 2</div>
+            <div class="subcontainer">item 3</div>            
+        </section>
+
+        <h1>justify-content: center;</h1>
+        <section class="container flex flex-center">
+            <div class="subcontainer">1</div>
+            <div class="subcontainer">Pega esse item 2</div>
+            <div class="subcontainer">item 3</div>            
+        </section>
+
+        <h1>justify-content: space-between;</h1>
+        <section class="container flex space-between">
+            <div class="subcontainer">1</div>
+            <div class="subcontainer">Pega esse item 2</div>
+            <div class="subcontainer">item 3</div>            
+        </section>
+
+        <h1>justify-content: space-around;</h1>
+        <section class="container flex space-around">
+            <div class="subcontainer">1</div>
+            <div class="subcontainer">Pega esse item 2</div>
+            <div class="subcontainer">item 3</div>            
+        </section>
+
+        <h1>align-items: strech;</h1>
+        <section class="container flex align-items-stretch">
+            <div class="subcontainer">item 1</div>
+            <div class="subcontainer">item pra baixo 2</div>
+            <div class="subcontainer">item mais pra baixo 3</div>
+            <div class="subcontainer">item 4 ih rapax esse ta baixo</div>
+            <div class="subcontainer">item 5</div>
+        </section>
+
+        <h1>align-items: flex-start;</h1>
+        <section class="container flex align-items-flex-start">
+            <div class="subcontainer">item 1</div>
+            <div class="subcontainer">item pra baixo 2</div>
+            <div class="subcontainer">item mais pra baixo 3</div>
+            <div class="subcontainer">item 4 ih rapax esse ta baixo</div>
+            <div class="subcontainer">item 5</div>
+        </section>
+
+        <h1>align-items: flex-end;</h1>
+        <section class="container flex align-items-flex-end">
+            <div class="subcontainer">item 1</div>
+            <div class="subcontainer">item pra baixo 2</div>
+            <div class="subcontainer">item mais pra baixo 3</div>
+            <div class="subcontainer">item 4 ih rapax esse ta baixo</div>
+            <div class="subcontainer">item 5</div>
+        </section>
+
+        <h1>align-items: center;</h1>
+        <section class="container flex align-items-flex-center">
+            <div class="subcontainer">item 1</div>
+            <div class="subcontainer">item pra baixo 2</div>
+            <div class="subcontainer">item mais pra baixo 3</div>
+            <div class="subcontainer">item 4 ih rapax esse ta baixo</div>
+            <div class="subcontainer">item 5</div>
+        </section>
+
+        <h1>align-items: baseline;</h1>
+        <section class="container flex align-items-flex-baseline">
+            <div class="subcontainer">item 1</div>
+            <div class="subcontainer">item pra baixo 2</div>
+            <div class="subcontainer">item mais pra baixo 3</div>
+            <div class="subcontainer">item 4 ih rapax esse ta baixo</div>
+            <div class="subcontainer">item 5</div>
+        </section>
+
+        <h1>align-items: strech; //column</h1>
+        <section class="container flex column align-items-stretch">
+            <div class="subcontainer">item 1</div>
+            <div class="subcontainer">item pra baixo 2</div>
+            <div class="subcontainer">item mais pra baixo 3</div>
+            <div class="subcontainer">item 4 ih rapax esse ta baixo</div>
+            <div class="subcontainer">item 5</div>
+        </section>
+
+        <h1>align-items: flex-start; //column</h1>
+        <section class="container flex column align-items-flex-start">
+            <div class="subcontainer">item 1</div>
+            <div class="subcontainer">item pra baixo 2</div>
+            <div class="subcontainer">item mais pra baixo 3</div>
+            <div class="subcontainer">item 4 ih rapax esse ta baixo</div>
+            <div class="subcontainer">item 5</div>
+        </section>
+
+        <h1>align-items: flex-end; //column</h1>
+        <section class="container flex column align-items-flex-end">
+            <div class="subcontainer">item 1</div>
+            <div class="subcontainer">item pra baixo 2</div>
+            <div class="subcontainer">item mais pra baixo 3</div>
+            <div class="subcontainer">item 4 ih rapax esse ta baixo</div>
+            <div class="subcontainer">item 5</div>
+        </section>
+
+        <h1>align-items: center; //column</h1>
+        <section class="container flex column align-items-flex-center">
+            <div class="subcontainer">item 1</div>
+            <div class="subcontainer">item pra baixo 2</div>
+            <div class="subcontainer">item mais pra baixo 3</div>
+            <div class="subcontainer">item 4 ih rapax esse ta baixo</div>
+            <div class="subcontainer">item 5</div>
+        </section>
+
+        <h1>align-items: baseline; //column</h1>
+        <section class="container flex column align-items-flex-baseline">
+            <div class="subcontainer">item 1</div>
+            <div class="subcontainer">item pra baixo 2</div>
+            <div class="subcontainer">item mais pra baixo 3</div>
+            <div class="subcontainer">item 4 ih rapax esse ta baixo</div>
+            <div class="subcontainer">item 5</div>
+        </section>
+
+
+        <h1>align-items: center; justify-content: center; //column</h1>
+        <section class="container flex column align-items-flex-center flex-center quadradao">
+            <div class="subcontainer quadradinho"></div>
+        </section>
+
+    </div>
+    
+</body>
+</html>
